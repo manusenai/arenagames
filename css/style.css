@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+html,body {
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+    text-rendering: optimizeLegibility;
+}
+
+
+main {
+    background-color: black;
+    margin-top: 4rem;
+}
+
+body {
+    background-color: #f1dbda;
+}
+
+#header {
+    background-color: #3c363b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    position: fixed;
+    top: 0rem;
+    right: 0rem;
+    left: 0rem;
+    height: 13rem;
+}
+
+.dois {
+    margin-top: 13rem;
+}
+
+
+.icon {
+    width: 14rem;
+    margin-left:2rem;
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+
+.nome {
+    font-size: 4rem;
+    margin-right: 53rem;
+    display: inline-flex;
+    margin-left: 2.5rem;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    color: #f9ebf2;
+}
+
+.inicio {
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin-right: 3.9rem;
+    font-size: 3rem;
+    color: #f9ebf2;
+    font-family: 'Kanit', sans-serif;
+    font-weight:bold;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+
+
+.inicio:hover {
+    font-size: 3.5rem;
+    transition: all 0.5s;
+}
+
+
+.homes {
+    font-size: 4.5rem;
+    display: flex;
+    padding-top: 13rem;
+
+
+    color: #3c363b;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.principal {
+    font-size: 4.5rem;
+    display: flex;
+    padding-top: 5rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    color: #3c363b;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.jogos {
+    font-size: 4rem;
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: #3c363b;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+.linha {
+    height: 20rem;
+    width: 20rem;
+    display: inline-flex;
+    margin-bottom: 4rem;
+    margin-left: 8rem;
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+
+.linhaa {
+    height: 20rem;
+    width: 20rem;
+    display: inline-flex;
+    margin-bottom: 4rem;
+    margin-left: -2.8rem;
+    margin-right: 3rem;
+}
+
+.cubo {
+    border-radius: 2rem;
+    height: 17.5rem;
+    width: 17.5rem;
+    transition: all 0.5s;
+    box-shadow: black 1rem;
+    overflow: 0.5rem;
+
+
+}
+
+
+.cubo:hover {
+    width: 18.5rem;
+    height: 18.5rem;
+    transition: all 0.5s;
+    opacity: 1;
+    box-shadow: 0 0 1rem black;
+    animation-name: opacity;
+
+}
+
+.tipos {
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    color: #3c363b;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+}
+
+.ex {
+    background-color: #cfbdbf;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120rem;
+    margin-bottom: 5rem;
+}
+
+#ex {
+    font-size: 2.6rem;
+    padding: 2rem;
+    font-family: 'Work Sans', sans-serif;
+    color: #3c363b;
+}
+
+
+.ret {
+    background-color: #cfbdbf;
+    display: inline-flex;
+    width: 105rem;
+    height: 20rem;
+    border-radius: 2rem;
+    margin:0;
+    margin-bottom: 4rem;
+    margin-top: -70rem;
+}
+
+.sobre {
+    font-size: 3rem;
+    padding: 2rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.plat {
+    height: 18rem;
+    width: 18rem;
+    display: inline-flex;
+    border-radius: 2rem;
+    transition: all 0.5s;
+    box-shadow: black 1rem;
+    overflow: 0.5rem;
+    margin-right: 2rem;
+    margin-left: 8rem;
+    margin-top: 15rem;
+}
+
+footer {
+    margin-top: 5rem;
+}
+
+.footer {
+    background-color: #3c363b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    top: 0rem;
+    right: 0rem;
+    left: 0rem;
+    height: 15rem;
+}
+
+.foot {
+    color: #f9ebf2;
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 3rem;
+    margin-right: 5rem;
+}
+
+.iconmenor {
+    width: 10rem;
+    margin-left:0rem;
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #f9ebf2;
+}
